@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap');
+@font-face {
+    font-family: Century Gothic;
+    src: url('fonts/SansSerifBookFLF.otf') format(opentype);
+    font-weight: normal;
+    font-size: normal;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+li, a, button{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #fff;
+}
+
+.logo{
+    margin-right: auto;
+    height: 30px;
+}
+
+.nav-links{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #FFC71F;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.pesquisa{
+    background-color: #fff;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #707070;
+}
+
+.pesquisa a{
+    color: #000;
+    float: right;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.pesquisa a img{
+    height: 25px;
+    margin-left: 10px;
+}
+
+.texto-pesquisa{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    margin-left: 5px;
+}
+
+.icones a img{
+    height: 25px;
+    margin-left: 20px;
+}
+
+.linha{
+    border-bottom: 1px solid #000;
+    width: 100vw;
+}
+
+/* Footer */
+
+footer{
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo-f{
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.redes a img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.dados img{
+    height: 25px;
+    margin-right: 8px;
+}
+
+.infoscont{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-f{
+    display: flex;
+    flex-direction: row;
+}
+
+.institucional{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    width: 50%;
+}
+
+.institucional p{
+    font-family: 'Century Gothic', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.nav-links-f1{
+    list-style: none;
+    margin-right: 20%;
+}
+
+.nav-links-f2{
+    list-style: none;
+}
+
+.nav-links-f1 li, .nav-links-f2 li{
+    margin-top: 20px;
+}
+
+.nav-links-f1 li a, .nav-links-f2 li a{
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-links-f1 li a:hover, .nav-links-f2 li a:hover{
+    color: #FFC71F;
+}
+
+/* Conteúdo */
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 10%;
+    flex-wrap: wrap;
+}
+
+.bloco{
+    margin: 10px;
+}
+
+.bloco a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.bloco a img{
+    width: 300px;
+}
+
+.bloco p{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.popcoisas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.popcoisas a img{
+    width: 100vw;
+    padding: 20px 5%;
+}
